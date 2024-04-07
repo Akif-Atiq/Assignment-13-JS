@@ -1,0 +1,23 @@
+
+.custom-outline {
+    border-color: #000 !important;
+}
+     
+     /* Custom CSS for button height and width */
+     .buttons .btn {
+        margin-right: 5px;
+        height: 40px; /* Adjust the height as needed */
+        width: 108%; /* Make buttons take up 90% of the width */
+    }
+
+    /* Custom CSS for centering the last button */
+    .center-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .buttons .row {
+        margin-right: -2px; /* Move all buttons 5px to the left */
+    }
+    .buttons .center-btn {
+        margin-right: -2px; /* Move the last button 5px to the left */
+    }
